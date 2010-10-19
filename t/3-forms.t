@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More;
+use Test::More tests => 20;
 
 use Text::Extract::Word qw(get_all_text);
 
@@ -43,7 +43,5 @@ is($bookmarks->{Text11}, "Pedagogy", "Got correct value for Text11");
 is($bookmarks->{startdate}, "January 2005", "Got correct value for startdate");
 is($bookmarks->{Text29}, "599", "Got correct value for Text29");
 is($bookmarks->{Applicant2}, "Dr S Watt", "Got correct value for Applicant2");
-
-done_testing();
 
 1;
