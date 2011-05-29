@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     'OLE::Storage_Lite' => '0',
     'POSIX' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }
