@@ -4,7 +4,7 @@
       "Stuart Watt <stuart@morungos.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "artistic_2"
    ],
@@ -16,20 +16,20 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
          "requires" : {
-            "Encode" : 0,
-            "IO::File" : 0,
-            "OLE::Storage_Lite" : 0,
-            "POSIX" : 0,
+            "Encode" : "0",
+            "IO::File" : "0",
+            "OLE::Storage_Lite" : "0",
+            "POSIX" : "0",
             "perl" : "5.008000"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.03"
+   "version" : "0.04"
 }
 
